@@ -1,8 +1,10 @@
 A description of the problem and a discussion of the background. 
 
-Introduction: Business Problem ¶
+Business Problem ¶
 This project deals with discussing the neighborhoods of Visakhapatnam,India. 
 This project would specifically help Business people planning to start Restaurants, Hotels, etc. in Visakhapatnam, Andhrapradesh, India.
+
+A description of the data and how it will be used to solve the problem. 
 
 The Foursquare API is used to access the venues in the neighborhoods. 
 Since, it returns less venues in the neighborhoods, we would be analysing areas for which countable number of venues are obtained. 
