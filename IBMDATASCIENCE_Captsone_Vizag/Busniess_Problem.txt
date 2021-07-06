@@ -4,8 +4,6 @@ Business Problem ¶
 This project deals with discussing the neighborhoods of Visakhapatnam,India. 
 This project would specifically help Business people planning to start Restaurants, Hotels, etc. in Visakhapatnam, Andhrapradesh, India.
 
-A description of the data and how it will be used to solve the problem. 
-
 The Foursquare API is used to access the venues in the neighborhoods. 
 Since, it returns less venues in the neighborhoods, we would be analysing areas for which countable number of venues are obtained. 
 Then they are clustered based on their venues using Data Science Techniques. Here the k-means clustering algorithm is used to achieve the task.
@@ -14,3 +12,15 @@ These clusters can be analyzed to help small scale business owners select a suit
 Shopping Malls, Restaurants or even specifically Indian restaurants or Coffee shops.
 
 The major Target Audience would be small-scale business owners and stake holders planning to start their business at a location in Chennai.
+
+Data Requirements
+Vizag has multiple neighborhoods. Get the list of localities in visakhapatnam from wikipedia page by doing webscrapping and use geopy to get latitude and longitudes of each localities.In order to obtain the venue details in each neighborhood Foursquare API is used.
+
+https://commons.wikimedia.org/wiki/Category:Suburbs_of_Visakhapatnam
+https://foursquare.com/
+There is a total of 26 neighborhoods.The following data are obtained from the Foursquare API
+
+Venue
+Venue Latitude
+Venue Longitude
+Venue Category data
