@@ -12,3 +12,5 @@ Then they are clustered based on their venues using Data Science Techniques. Her
 Folium visualization library can be used to visualize the clusters superimposed on the map of Chennai city. 
 These clusters can be analyzed to help small scale business owners select a suitable location for their need such as Hotels, 
 Shopping Malls, Restaurants or even specifically Indian restaurants or Coffee shops.
+
+The major Target Audience would be small-scale business owners and stake holders planning to start their business at a location in Chennai.
